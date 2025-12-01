@@ -3,6 +3,6 @@ package com.demo.datatypes;
 public class Test {
      static void main(String[] args) {
         String a = "Hello!";
-        System.out.println(a.charAt(3));
+        System.out.println(a.substring(0,3));
     }
 }
