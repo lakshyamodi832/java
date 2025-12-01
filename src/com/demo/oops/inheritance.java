@@ -1,8 +1,6 @@
 package com.demo.oops;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class test {
+public class inheritance {
     static class Animal{
         String name;
         void eat(){
@@ -16,8 +14,6 @@ public class test {
         }
     }
     public static void main(String[] args){
-//        Car car = new Car("White");
-//        car.setSpeed(69);
 
         Dog dog = new Dog();
         dog.name = "Tommy";

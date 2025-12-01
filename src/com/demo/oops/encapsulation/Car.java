@@ -1,4 +1,4 @@
-package com.demo.oops;
+package com.demo.oops.encapsulation;
 
 public class Car {
     private int speed;
