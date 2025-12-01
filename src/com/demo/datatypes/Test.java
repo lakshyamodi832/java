@@ -18,5 +18,6 @@ public class Test {
         System.out.println(Integer.toBinaryString(x&y));//1
         System.out.println(Integer.toBinaryString(x|y));//111
         System.out.println(Integer.toBinaryString(x^y));//110->XOR
+        System.out.println(Integer.toBinaryString(~x));//11111111111111111111111111111010->NOT
      }
 }
