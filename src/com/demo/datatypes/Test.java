@@ -21,5 +21,15 @@ public class Test {
         System.out.println(Integer.toBinaryString(~x));//11111111111111111111111111111010->NOT
         System.out.println(Integer.toBinaryString(x << 1));//1010->LightShift
         System.out.println(Integer.toBinaryString(x >> 1));//10->RightShift
+         boolean isSunny = true;
+         boolean isWarm = true;
+         boolean isGoodWeather = isSunny && isWarm;
+         System.out.println("Beach Day = " + isGoodWeather);//true
+         boolean isSnowing = true;
+         boolean isRaining = true;
+         boolean isBadWeather = isSnowing || isRaining;
+         System.out.println("Bad Weather = " + isBadWeather);//true
+         boolean israining = false;
+         System.out.println("Beach Day = " + !israining);//true
      }
 }
