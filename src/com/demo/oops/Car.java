@@ -1,15 +1,17 @@
 package com.demo.oops;
 
 public class Car {
-    int speed;
-    String color;
+    private int speed;
+    private String color;
 
-    Car(String color){
+    public Car(String color){
         this.color = color;
+        System.out.println(color);
     }
 
-    void drive(){
-        System.out.println("Driving");
+    public void setSpeed(int speed){
+        this.speed = speed;
+        System.out.println(speed);
     }
 
 }
