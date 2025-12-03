@@ -2,7 +2,7 @@ package com.demo.datatypes;
 
 import com.demo.oops.encapsulation.Car;
 
-public class Test {
+public class Test{
      static void main(String[] args) {
         String a = "Hello!";
         String str = new String("Hello");//string constructor

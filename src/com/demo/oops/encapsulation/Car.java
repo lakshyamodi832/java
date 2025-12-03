@@ -1,7 +1,9 @@
 package com.demo.oops.encapsulation;
 
+import com.demo.datatypes.Test;
+
 public class Car {
-    private int speed;
+    public int speed;
     private String color;
 
     public Car(String color){
@@ -14,4 +16,7 @@ public class Car {
         System.out.println(speed);
     }
 
+    public Car(){
+
+    }
 }
