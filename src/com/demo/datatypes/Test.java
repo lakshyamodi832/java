@@ -25,6 +25,4 @@ public class Test {
         System.out.println(Integer.toBinaryString(x << 1));//1010->LightShift
         System.out.println(Integer.toBinaryString(x >> 1));//10->RightShift
      }
-
-
 }
