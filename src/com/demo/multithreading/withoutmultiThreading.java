@@ -1,7 +1,7 @@
 package com.demo.multithreading;
 
 public class withoutmultiThreading {
-    public static void main(String[] args){
+    static void main() {
 
         long startTime = System.nanoTime();
 
