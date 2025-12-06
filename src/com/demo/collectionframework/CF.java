@@ -1,8 +1,6 @@
 package com.demo.collectionframework;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class CF {
     static void main() {
@@ -20,5 +18,14 @@ public class CF {
         list.addAll(arr_list);
 
         System.out.println(list);
+
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+
+        System.out.println(set);
+
+        set.add(2);
+
+        System.out.println(set.contains(2));
     }
 }
