@@ -1,7 +1,8 @@
 package com.demo.oops;
 
 public class abstraction {
-    public void main(String[] args){
+    static void main() {
+
         Dog dog1 = new Dog();
         dog1.Hello();
         dog1.Bye();
