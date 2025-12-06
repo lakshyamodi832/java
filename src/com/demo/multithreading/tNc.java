@@ -5,7 +5,7 @@ public class tNc {
         try {
             int result = 10/0;
             System.out.println(result);
-        } catch (ArithmeticException e){
+        } catch (Exception e){
             System.out.println("Error!");//cannot be divided by 0
         } finally {
             System.out.println("Finished!");
