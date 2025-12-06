@@ -27,5 +27,12 @@ public class CF {
         set.add(2);
 
         System.out.println(set.contains(2));
+
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "Lakshya");
+        map.put(2, "Laksh");
+        map.put(3, "Aksh");
+
+        System.out.println(map.get(2));
     }
 }
