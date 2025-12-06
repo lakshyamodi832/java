@@ -3,7 +3,7 @@ package com.demo.multithreading;
 public class withoutmultiThreading {
     public static void main(String[] args){
 
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
 
         int sum = 0;
 
@@ -25,6 +25,6 @@ public class withoutmultiThreading {
 
         System.out.println(count);
 
-        System.out.println(System.currentTimeMillis() - startTime);
+        System.out.println(System.nanoTime() - startTime);
     }
 }
